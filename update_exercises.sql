@@ -1,3 +1,5 @@
+use midlyn;
+
 SELECT record_name FROM albums;
 SELECT record_name FROM albums WHERE release_date <1980;
 SELECT artist = 'Michael Jackson', record_name FROM albums;
