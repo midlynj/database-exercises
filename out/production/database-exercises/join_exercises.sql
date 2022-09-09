@@ -52,7 +52,7 @@ JOIN roles ON roles.id = users.role_id
 GROUP BY roles.name;
 
 use employees;
-SELECT dept_name
+SELECT dept_name, first_name
 FROM departments
 JOIN employees ON departments.dept_no = employees.first_name
 
